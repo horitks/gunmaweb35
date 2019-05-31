@@ -1,15 +1,14 @@
 <template>
   <section class="container">
     <div>
-      <img src="/images/icons/icon-96x96.png" />
       <h2 class="subtitle">
-        gunma.web pwa demo page
+        demo page
       </h2>
       <div class="links">
         <nuxt-link
-          to="/demo"
-          class="button--green"
-        >ページ遷移デモ</nuxt-link>
+          to="/"
+          class="button--grey"
+        >TOPに戻る</nuxt-link>
       </div>
     </div>
   </section>
