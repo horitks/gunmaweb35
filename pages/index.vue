@@ -3,7 +3,7 @@
     <div>
       <img src="/images/icons/icon-96x96.png" />
       <h2 class="subtitle">
-        gunma.web pwa demo page
+        gunma.web 35 pori's pwa demo page
       </h2>
       <div class="links">
         <nuxt-link
