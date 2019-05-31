@@ -106,6 +106,36 @@ export default {
     ]
   },
 
+  workbox: {
+    // Precache
+    preCaching: [
+      'icons/*',
+      'images/icons/*'
+    ],
+    cacheOptions: {
+      cacheId: '1.0.0',
+      directoryIndex: '/',
+      revision: undefined
+    },
+    cleanupOutdatedCaches: true,
+    // Runtime Caching
+    runtimeCaching: [
+      {
+        urlPattern: '/',
+        handler: 'networkFirst',
+        options: {
+          cacheName: 'page',
+          expiration: {
+            maxAgeSeconds: 60 * 60 * 24
+          },
+          matchOptions: {
+            ignoreSearch: true
+          }
+        }
+      }
+    ]
+  },
+
   /*
   ** Build configuration
   */
