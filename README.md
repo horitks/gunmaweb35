@@ -1,7 +1,8 @@
 # gunmaweb35
 
-> gunma pwa demo
-gunma.web35LTのデモ用リポジトリです。
+> gunma pwa demo  
+
+- gunma.web35LTのデモ用リポジトリです。
 
 ## Build Setup
 
